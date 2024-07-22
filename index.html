@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek || Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header Site-->
+
+    <header>
+        <div class="logo"><span>A</span>bhishek.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <!-- <li><a href="#services" style="--i:3;">Services</a></li> -->
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Project</a></li>
+            <li><a href="#cv" style="--i:5;">CV</a></li>
+            <li><a href="#contact" style="--i:6;">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home Section-->
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Abhishek Singh</h1>
+            <div class="change-text">
+                <h3>Who I,m</h3>
+                <h3>
+                    <span class="word"></span>
+                    <span class="word"></span>
+                </h3>
+            </div>
+            <p>Hello! I’m Abhishek Singh, a first-year B.Tech student specializing in Computer Science and Engineering. With a strong passion for technology and innovation, I am excited to embark on my journey in the world of computing.
+
+                As a budding software engineer, I am delving into core areas such as programming, algorithms, and data structures. My coursework and hands-on projects have sparked a deep interest in web development, machine learning, cybersecurity, and I am eager to apply these skills to solve real-world problems.</p>
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email</h5>
+                    <span>abhsihek.13012006@gmail.com</span>
+                </div>
+                <div class="behance-info">
+                    <h5>Name</h5>
+                    <span>Abhishek Singh</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="img/exp-img.png" alt="Rajendra Ghongade" style="transform: scaleX(-1);">
+            </div>
+
+    </section>
+
+    <!-- About Section-->
+
+    <section id="about" class="about">
+        <div class="img-about scroll-scale">
+            <img src="img/portfolio.jpeg" alt="Rajendra Ghongade" class="underlined-image">
+        </div>
+
+        <div class="about-content scroll-scale">
+            <span>Education</span>
+         
+            <h2>B.Tech Computer Science</h2>
+            <h3>MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES</h3>
+            <p>2023 - 2027</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Read More!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section-->
+
+    <section id="skills" class="skills">
+        <div class="main-text scroll-scale">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left scroll-scale">
+                <h3>Languages Known</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>ENGLISH</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HINDI</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="figma"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Project Mangement</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Good Communication</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="85"></div>
+                        <div class="text">
+                            <big>85%</big>
+                            <small>Time Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Leadership</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section-->
+
+    <section id="portfolio" class="portfolio">
+        <div class="main-text scroll-scale">
+            <span>What i will do for you</span>
+            <h2>Latest Project</h2>
+        </div>
+
+        <div class="container">
+            <div class="fillter-buttons scroll-scale">
+                <button class="button" data-filter="all">All</button>
+                <button class="button" data-filter=".product">Product</button>
+            </div>
+
+            <div class="portfolio-gallery product scroll-scale">
+                <div class="port-box mix">
+                    <div class="port-image">
+                        <img src="img/1.jpg" alt="Online Quiz Platform">
+                    </div>
+                    <div class="port-content">
+                        <h3>Online Quiz Platform</h3>
+                        <p>Description: Developed an online quiz platform where users can take quizzes on various topics, view their scores, and review correct answers. The platform supports multiple-choice questions and user progress tracking.
+                            Technologies Used: HTML, CSS, JavaScript, PHP, MySQL
+                            Highlights: Created an admin panel for quiz management, used AJAX for asynchronous data handling, and ensured mobile responsiveness.</p>
+                    </div>
+                </div>
+
+                <div class="port-box mix product">
+                    <div class="port-image">
+                        <img src="img/2.jpg" alt="Personal Portfolio Website">
+                    </div>
+                    <div class="port-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Description: Designed and developed a personal portfolio website to showcase my skills, projects, and achievements. The website features a responsive design, an interactive user interface, and sections for project details, a blog, and contact information.
+                            Technologies Used: HTML, CSS, JavaScript, Bootstrap
+                            Highlights: Implemented a dynamic contact form, integrated with GitHub for project updates, and optimized the website for both desktop and mobile devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section-->
+    <section id="cv" class="cv">
+        <div class="home-content scroll-scale">
+            <h1>Abhishek Singh</h1>
+            <div class="change-text">
+                <h3>Who I,m</h3>
+                <h3>
+                    <span class="word"></span>
+                    <span class="word"></span>
+                </h3>
+            </div>
+            <p>Hello! I’m Abhishek Singh, a first-year B.Tech student specializing in Computer Science and Engineering. With a strong passion for technology and innovation, I am excited to embark on my journey in the world of computing.
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email</h5>
+                    <span>abhsihek.13012006@gmail.com</span>
+                </div>
+                <div class="behance-info">
+                    <h5>Name</h5>
+                    <span>Abhishek Singh</span>
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <a href="Abhishek Resume.pdf" class="btn">Download CV</a>
+                <a href="mailto:abhishek.13012006@gmail.com" class="btn">Hire Me Now!</a>
+            </div>
+
+        </div>
+
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="img/exp-img.png" alt="Rajendra Ghongade" style="transform: scaleX(-1);">
+            </div>
+
+    </section>
+
+    <!-- Contact Section-->
+
+    <section id="contact" class="contact">
+        <div class="main-text scroll-scale">
+            <span>ask me a question</span>
+            <h2>Contact Me</h2>
+        </div>
+    
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="scroll-bottom">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="address" placeholder="Your Address">
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+            <input type="hidden" name="access_key" value="6120821a-2b89-4e69-ab12-c2535cef4396">
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            // Create FormData object from the form
+            var formData = new FormData(this);
+    
+            // Send the form data using fetch
+            fetch(this.action, {
+                method: this.method,
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    response.json().then(data => {
+                        // Display a success message
+                        alert('Message sent successfully!');
+                        // Reset the form after successful submission
+                        document.getElementById('contactForm').reset();
+                    });
+                } else {
+                    // Handle any errors that occurred during the fetch
+                    response.json().then(data => {
+                        alert('Failed to send message: ' + data.message);
+                    }).catch(() => {
+                        alert('Failed to send message. Please try again later.');
+                    });
+                }
+            }).catch(error => {
+                // Handle any network errors
+                alert('Failed to send message. Please try again later.');
+            });
+        });
+    </script>
+    
+    <!-- Footer Section-->
+    <footer>
+        <p class="scroll-scale">Copyright &copy; 2024 by qwerty || All Right Reservd</p>
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
